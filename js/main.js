@@ -17,7 +17,8 @@ console.log(color);
 let password = nome + surname + color;
 console.log(password);
 
-const welcome_msg =`la tua password è: ${nome}${surname}${color}`;
+//IMPORTAZIONE PASSWORD IN HTML
+const welcome_msg = `la tua password è: ${nome}${surname}${color}`;
 
 const welcome_title=document.getElementById('welcome');
 welcome_title.innerHTML=welcome_msg;
